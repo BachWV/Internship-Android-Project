@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    >
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_newpost"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:background="@color/zhihublue"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:text="XX志愿者"
+        android:textSize="50sp"
+        />
+    <Button
+        android:id="@+id/btn_chose_menu"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="45dp"
+
+        android:text="选择板块"
+        android:textSize="18sp"
+        />
+    <EditText
+        android:id="@+id/input_title"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="40dp"
+
+        android:maxLines="1"
+
+        android:hint="请输入标题"
+        android:textSize="20sp"
+        android:singleLine="true"
+        />
+
+    <EditText
+        android:id="@+id/input_content"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="15dp"
+
+
+
+        android:hint="请输入内容"
+        android:textSize="20sp"
+        android:singleLine="true"
+        />
+
+    <Button
+        android:id="@+id/btn_image"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginLeft="35dp"
+        android:text="插入图片"
+        android:textSize="18sp"
+        />
+
+
+
+
+
+</LinearLayout>

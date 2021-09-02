@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    >
+
+    <TextView
+        android:layout_marginTop="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="XX志愿者"
+        android:textSize="50sp"
+        android:gravity="center"
+
+        />
+
+    <EditText
+        android:id="@+id/et_username"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:maxLines="1"
+
+        android:hint="请输入用户名"
+        android:textSize="20sp"
+        android:singleLine="true"
+        />
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:maxLines="1"
+
+        android:hint="请输入密码"
+        android:textSize="20sp"
+        android:singleLine="true"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginLeft="35dp"
+        android:text="登录"
+        android:textSize="18sp"
+
+        />
+
+    <TextView
+        android:id="@+id/tv_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="用户注册"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/tv_boom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+      android:text="boom"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        />
+
+
+
+</LinearLayout>
